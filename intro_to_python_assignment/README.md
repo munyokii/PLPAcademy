@@ -1,11 +1,11 @@
 # 🧮 Basic Calculator Program
 
-This is a simple Python console program that performs basic arithmetic operations—addition, subtraction, multiplication, and division—based on user input.
+This is a simple Python console program that performs basic arithmetic operations e.g. addition, subtraction, multiplication, division, and modulus based on user input.
 
 ## 🚀 Features
 
 - Accepts two numeric inputs from the user.
-- Accepts an arithmetic operation: +, -, *, or /.
+- Accepts an arithmetic operation: +, -, *, /, or %.
 - Performs the selected operation and displays the result in a readable format (e.g., 10 + 5 = 15).
 
 ## 🧑‍💻 How to Run
@@ -19,6 +19,7 @@ This is a simple Python console program that performs basic arithmetic operation
   ```bash
   python calculator.py
   ```
+
 ## 📚 Requirements
 Python 3.x
 
