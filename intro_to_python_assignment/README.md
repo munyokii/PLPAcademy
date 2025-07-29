@@ -7,7 +7,6 @@ This is a simple Python console program that performs basic arithmetic operation
 - Accepts two numeric inputs from the user.
 - Accepts an arithmetic operation: +, -, *, or /.
 - Performs the selected operation and displays the result in a readable format (e.g., 10 + 5 = 15).
-- Basic input validation to avoid common errors like division by zero.
 
 ## 🧑‍💻 How to Run
 - Make sure you have Python installed on your system.
@@ -20,3 +19,10 @@ This is a simple Python console program that performs basic arithmetic operation
   ```bash
   python calculator.py
   ```
+## 📚 Requirements
+Python 3.x
+
+## 🛠 Future Improvements
+- GUI-based version using Tkinter.
+- Support for more advanced mathematical operations.
+- Loop to allow multiple calculations without restarting the program.
