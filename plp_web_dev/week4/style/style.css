@@ -1,0 +1,59 @@
+body {
+  height: 2000px;
+  margin: 2px;
+}
+
+p {
+  display: inline;
+}
+
+span {
+  display: block;
+}
+
+.container {
+  display: inline-block;
+  border: 2px solid black;
+  background-color: lightgreen;
+  width: 100px;
+  height: 200px;
+}
+
+#p-one {
+  display: none;
+}
+
+.fixed-nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgb(5, 178, 235);
+  padding: 10px;
+  text-align: center;
+}
+
+h2 {
+  position: sticky;
+  top: 0;
+  background-color: tomato;
+  padding: 10px;
+  margin: 0;
+}
+
+section {
+  height: 500px;
+  padding: 20px;
+}
+
+.one {
+  background-color: blue;
+}
+
+.two {
+  background-color: green;
+}
+
+.three {
+  background-color: red;
+}
