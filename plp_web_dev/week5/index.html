@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Intro to JavaScript</title>
+  <style>
+    .btn {
+      background-color: aqua;
+      border: outline;
+      border-radius: 10px;
+    }
+  </style>
+</head>
+<body id="body">
+  <h1 id="intro">Welcome to Intro to JavaScript</h1>
+  <p id="description">This is a simple web page to demonstrate JavaScript integration.</p>
+  <button id="btn" onclick="manipulate()">Manipulate</button>
+
+  <script>
+    // this  where the JS code goes
+    // avoid site not loading
+    // DECLARING VARIABLES
+
+    // 1. let keyword
+    let name = "Job";
+    console.log(name);
+
+    // 2. const keyword
+    const PI = 3.14152;
+    console.log(PI);
+
+    /*
+    naming conventions
+    1. case sensitivity
+    2. allowed characters a-z, A-Z, 0-9, and _
+    3. hyphens (-) are not allowed
+    4. must not start with a number
+
+    camelCase => firstName, lastName
+    PascalCase => FirstName, LastName
+
+   */
+
+   /*
+   Primitive data types(basic)
+
+   String -> text
+   Numbers => whole/decimal
+   Boolean => true/false
+   Null => intentional absence of any object value
+   Undefined => variable has been declared but not assigned a value
+
+   Non-Primitive(complex)
+
+   1. Object -> { key: value; }
+   2. Array -> list of items [ item1, item2, item3 ]
+   3. Function
+   */
+  </script>
+  <script src="js/script.js"></script>
+</body>
+</html>
